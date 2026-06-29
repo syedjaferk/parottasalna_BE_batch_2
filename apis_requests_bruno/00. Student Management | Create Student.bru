@@ -1,0 +1,19 @@
+meta {
+  name: 00. Student Management | Create Student
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:8000/students
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Syed Jafer K",
+    "age": 28,
+    "department": "IT"
+  }
+}
